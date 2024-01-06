@@ -12,4 +12,29 @@ body{
   column-gap: 10px;
   row-gap: 10px;
   margin-top: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+#todo-input , #todo-date{
+  font-size : 15px;
+  padding : 15px;
+}
+
+.btn-delete {
+  background-color: rgb(85, 21, 21);
+  color:white;
+  border: none;
+  border-radius: 10px;
+  padding : 15px 0px;
+  cursor: pointer;
+}
+
+.btn-todo{
+  background-color: rgb(9, 116, 23);
+  color:white;
+  border: none;
+  border-radius: 10px;
+  padding : 10px 0px;
+  cursor: pointer;
 }
